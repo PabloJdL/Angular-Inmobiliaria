@@ -12,6 +12,8 @@ import { RouterModule } from '@angular/router';
       </header>
     </a>
 
+    <a [routerLink]="['/registro']">Registro</a>
+
     <section class="content">
       <router-outlet></router-outlet>
     </section>
